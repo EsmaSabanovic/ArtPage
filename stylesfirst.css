@@ -1,0 +1,116 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    font-family: 'Poppins', sans-serif;}
+  
+section.all{
+    /*background-image: url(pozadina.jpeg);*/
+        margin:0;
+        width: 100%;
+        background-size: cover;
+        background-color: black;
+text-align: center;}
+
+.okvir{
+    background-color: rgb(0, 0, 0);
+    height: 760px;
+    width: 800px;
+  
+}
+.mainphoto img{
+    width: 500px; 
+     margin-top: 5cm;
+}
+.insta a{
+    text-decoration: none;
+    color: white;
+}
+.bar a:visited{
+    color: whitesmoke;
+    }
+ .bar a:hover{
+    color: rgb(119, 3, 3);
+    }
+
+      #videonadja{
+     position: absolute;
+        top: 0;
+        height: 760px;
+        opacity: 0.5;
+right: 0;
+left: 500;
+margin: 0;
+background-color: black;
+object-fit: cover;
+      } 
+.mainphoto h3{
+        z-index: 10;
+        position: relative;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;}
+        
+.mainphoto a{
+      background-color: transparent;
+      padding:5px 15px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      margin-top: 10px;
+      letter-spacing: 2px;
+      align-items: center ;
+      font-size: smaller;
+      font-family: 'Poppins', sans-serif;
+      }
+      @media only screen and (max-width:992px){
+ 
+        section.all{
+            /*background-image: url(pozadina.jpeg);*/
+                margin:0;
+                width: 100%;
+                background-size:contain;
+                background-color: black;
+        text-align: center;}
+        
+        .okvir{
+            background-color: rgb(0, 0, 0);
+            height: 100%;
+            width:100%;
+            margin-bottom: 2cm;
+        }
+        .mainphoto img{
+            width: 400px; 
+             margin-top: 1cm;
+        }
+     
+        
+              #videonadja{
+             position:relative;
+                top: 0cm;
+                width: 100%;              
+                opacity: 0.5;
+        right: 0;
+        left: 500;
+        margin: 0;
+        background-color: black;
+        object-fit: cover;
+              } 
+        .mainphoto h3{
+                z-index: 10;
+                position: relative;
+                font-size: 25px;
+                font-family: 'Poppins', sans-serif;}
+                
+        .mainphoto a{
+              background-color: transparent;
+              padding:5px 15px;
+              text-decoration: none;
+              color: rgb(255, 255, 255);
+              margin-top: 10px;
+              letter-spacing: 2px;
+              align-items: center ;
+              font-size: smaller;
+              font-family: 'Poppins', sans-serif;
+              }
+
+      }
+      
+      

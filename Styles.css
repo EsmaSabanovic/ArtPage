@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,200&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.all {
+    /**background-image: url(pozadina.jpeg);**/
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    background-color: black;
+}
+
+.all video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.mainphoto img {
+    width: 700px;
+    z-index: 100;
+    margin-left: 10cm;
+}
+
+.insta a,
+.treci a {
+    text-decoration: none;
+    color: white;
+}
+
+.insta a:visited,
+.treci a:visited {
+    color: whitesmoke;
+}
+
+.insta a:hover,
+.treci a:hover {
+    color: rgb(119, 3, 3);
+}
+
+.treci {
+    text-align: left;
+    font-size: 15px;
+    height: 100px;
+    background-color: black;
+    z-index: 100;
+    margin-top: 0;
+    opacity: 1;
+}
+
+.insta {
+    text-align: left;
+    font-size: 15px;
+    height: 100px;
+    margin-top: 0;
+    opacity: 1;
+    position: fixed;
+    z-index: 100;
+}
+
+
+/**#photo-viewer{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+#photo-viewer.is-loading:after{
+    content: url(instagramicon.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+#photo-viewer img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top:50%;
+    left:50%;
+}**/
+
+.okvir {
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    display: inline-block;
+    justify-content: center;
+    z-index: 100;
+    margin-top: 2cm;
+    height: fit-content;
+}
+
+a.active {
+    opacity: 0.3;
+}
+
+.accordioncustom {
+    width: 1000px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    font-size: 60px;
+    text-align: center;
+}
+
+.header,
+.header2,
+.header3,
+.header4,
+.header5,
+.header6,
+.header7 {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    height: 200px;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.header {
+    background-image: url("20211012_221132_0000.png");
+}
+
+.header2 {
+    background-image: url("IMG_20210226_151546_254.jpg");
+}
+
+.header3 {
+    background-image: url("IMG_20200523_172649_004.jpg");
+}
+
+.header4 {
+    background-image: url("IMG_20200622_173654_062.jpg");
+}
+
+.header5 {
+    background-image: url("Screenshot_20211217-232537_Instagram.jpg");
+}
+
+.header6 {
+    background-image: url("IMG_20200517_233534_210.jpg");
+}
+
+.header7 {
+    background-image: url("IMG_20210215_205639_609.jpg");
+}
+
+.kolekcija {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    height: fit-content;
+}
+
+* .broj,
+.brojdva,
+.brojtri,
+.brojcetiri,
+.brojpet,
+.brojsest,
+.brojsedam {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.kontejner {
+    position: relative;
+    margin: auto;
+    height: max-content;
+}
+
+.iduci,
+.iducidva,
+.iducitri,
+.iducicetiri,
+.iducipet,
+.iducisest,
+.iducisedam {
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    color: rgb(107, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.iduci,
+.iducidva,
+.iducitri,
+.iducicetiri,
+.iducipet:hover,
+.iducisest:hover,
+.iducisedam:hover {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dot,
+.dotdva,
+.dott,
+.dottc,
+.dotp,
+.dotts,
+.d {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover,
+.dotdva:hover,
+.dott:hover,
+.dottc:hover,
+.dotp:hover,
+.dotts:hover,
+.d:hover {
+    background-color: rgb(107, 0, 0);
+}
+
+.header,
+.header2,
+.header3,
+.header4,
+.header5,
+.header6,
+.header7 {
+    font-size: 50px;
+    color: white;
+}
+
+.header:hover,
+.header2:hover,
+.header3:hover,
+.header4:hover,
+.header5:hover,
+.header6:hover,
+.header7:hover {
+    font-size: 50px;
+    color: rgb(107, 0, 0);
+}
+
+@media only screen and (max-width:992px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    section.all {
+        /**background-image: url(pozadina.jpeg);**/
+        margin: 0;
+        width: 100%;
+        background-size: cover;
+        text-align: center;
+        background-color: black;
+    }
+    
+    .all video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 310px;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+    
+    .mainphoto img {
+        width: 100%;
+        z-index: 100
+    }
+    
+    .treci {
+        text-align: left;
+        font-size: 15px;
+        height: 100px;
+        background-color: black;
+        z-index: 100;
+        margin-top: 0;
+        opacity: 1;
+    }
+    
+    .insta {
+        text-align: left;
+        font-size: 15px;
+        height: 100px;
+        opacity: 0;
+        position:initial;
+        z-index: 0;
+
+    }
+    
+    .okvir {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        display: inline-block;
+        justify-content: center;
+        z-index: 100;
+        margin-top: 2cm;
+        height: fit-content;
+    }
+    
+
+    
+    .header,
+    .header2,
+    .header3,
+    .header4,
+    .header5,
+    .header6,
+    .header7 {
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+        height: 200px;
+        justify-content: center;
+        padding: 70px 0;
+    }
+    
+    .accordioncustom {
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+}
