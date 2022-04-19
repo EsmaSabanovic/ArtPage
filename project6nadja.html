@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--Bootstrap CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--
+        Name: Esma Šabanović
+        Course: CS412 [1]
+        Assignment: Project #6
+        Due Date:
+        Purpose: 
+    -->
+    <!--My CSS file-->
+    <link rel="Stylesheet" href="Styles.css">
+    <title>Cvijet u Kosi Art</title>
+    <link rel="icon" href="flower1.svg">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <section class="all">
+        <div class="video"> <video autoplay muted loop id="video">
+              <source src="pozadinskivideo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="tekstslika">
+            <div class="col-md-3">
+                <div class="insta" style="margin-left: 1cm;">
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="prvi">
+
+                        <a href="https://www.instagram.com/cvijetukosiart/?hl=hr" class="fa fa-instagram" style="z-index: 100; text-align: center; font-size:50px">
+                            <p style="font-size: 20px;">Cvijet u kosi Art </p>
+                        </a>
+
+                        <br></div><br>
+                    <div class="drugi">
+                        <a href="https://www.instagram.com/cvijet.u.kosi/?hl=h" class="fa fa-instagram" style="z-index: 100; text-align: center; font-size:50px">
+                            <p style="font-size: 20px;">Nađa Zaimović </p>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="bar" style="text-align: center; align-items: center;">
+                    <div class="mainphoto">
+                        <img src="logonadja.jpg" alt="Logo">
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="okvir">
+
+
+
+
+
+
+
+            <div class="text" style="margin-bottom: 1cm; color: beige; opacity:  0.5;"> KOLEKCIJE </div>
+            <div class="accordioncustom" style="justify-content: center; ">
+                <div class="firstC">
+                    <h2 class="header">
+                        2021
+                    </h2>
+
+                    <div class="kolekcija">
+                        <div class="kontejner">
+
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20211117_121155_603.jpg" style="width:100%; height: auto;">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20211117_121240_148.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20211117_120946_478.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20211012_221750_691.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20211012_221711_619.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210829_154545_905.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210530_182223_878.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210530_182132_668.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210530_182039_668.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210327_173858_445.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210327_173256_374.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210327_173204_676.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210311_140433_819.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210311_140354_301.jpg" style="width:100%">
+                            </div>
+                            <div class="broj">
+                                <img src=".\2021 resized\IMG_20210311_140314_227.jpg" style="width:100%">
+                            </div>
+
+                            <a class="prethodni" onclick="plusSlides(-1)"></a>
+                            <a class="iduci" onclick="plusSlides(1)">&#10095;</a>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                            <span class="dot" onclick="currentSlide(6)"></span>
+                            <span class="dot" onclick="currentSlide(7)"></span>
+                            <span class="dot" onclick="currentSlide(8)"></span>
+                            <span class="dot" onclick="currentSlide(9)"></span>
+                            <span class="dot" onclick="currentSlide(10)"></span>
+                            <span class="dot" onclick="currentSlide(11)"></span>
+                            <span class="dot" onclick="currentSlide(12)"></span>
+                            <span class="dot" onclick="currentSlide(13)"></span>
+                            <span class="dot" onclick="currentSlide(14)"></span>
+                            <span class="dot" onclick="currentSlide(15)"></span>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="secondC">
+                    <h2 class="header2">
+                        2020
+                    </h2>
+
+                    <div class="kolekcija">
+                        <div class="kontejner">
+
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200817_133242_338.jpg
+                                " style="width:100%; height: auto;">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200425_133847_284.jpg" style="width:100%; height: auto;">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\20200525_164352.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\20200817_134450.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200425_133847_284.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200817_202200_551.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20210110_131324_970.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\Screenshot_20211217-233509_Instagram.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\Screenshot_20211217-233526_Instagram.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20210226_151624_041.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200425_133209_381.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20210226_151425_802.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200817_133242_338.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20210226_151546_254.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200529_223037_370.jpg" style="width:100%">
+                            </div>
+                            <div class="brojdva">
+                                <img src=".\2020 resized\IMG_20200529_222951_685.jpg" style="width:100%">
+                            </div>
+
+                            <a class="prethodnidva" onclick="plusSlide(-1)"></a>
+                            <a class="iducidva" onclick="plusSlide(1)">&#10095;</a>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                            <span class="dotdva" onclick="currentSlid(1)"></span>
+                            <span class="dotdva" onclick="currentSlid(2)"></span>
+                            <span class="dotdva" onclick="currentSlid(3)"></span>
+                            <span class="dotdva" onclick="currentSlid(4)"></span>
+                            <span class="dotdva" onclick="currentSlid(5)"></span>
+                            <span class="dotdva" onclick="currentSlid(6)"></span>
+                            <span class="dotdva" onclick="currentSlid(7)"></span>
+                            <span class="dotdva" onclick="currentSlid(8)"></span>
+                            <span class="dotdva" onclick="currentSlid(9)"></span>
+                            <span class="dotdva" onclick="currentSlid(10)"></span>
+                            <span class="dotdva" onclick="currentSlid(11)"></span>
+                            <span class="dotdva" onclick="currentSlid(12)"></span>
+                            <span class="dotdva" onclick="currentSlid(13)"></span>
+                            <span class="dotdva" onclick="currentSlid(14)"></span>
+                            <span class="dotdva" onclick="currentSlid(15)"></span>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="thirdC">
+                    <h2 class="header3">
+                        2020 Blues
+                    </h2>
+                    <div class="kolekcija">
+                        <div class="kontejner">
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20200718_134609_958.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20200727_220720_400.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20201025_121709_672.jpg" style="width:100%">
+                            </div>
+                            <!-- <div class="brojtri">
+                              <img src=".\2020bluesresized\20200523_171611.jpg" style="width:100%; height: auto;">
+                            </div>-->
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20201025_121831_301.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20200712_140228_480.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20200525_180912_671.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\20200525_163515.jpg" style="width:100%">
+                            </div>
+                            <!--  <div class="brojtri">
+                                <img src=".\2020bluesresized\20200523_171556.jpg" style="width:100%">
+                              </div>-->
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\20200718_134402-01.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\20200718_133916-01.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\20200718_133413-01.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20200523_172637_678.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20200523_172716_735.jpg" style="width:100%">
+                            </div>
+                            <div class="brojtri">
+                                <img src=".\2020bluesresized\IMG_20200708_211858_464.jpg" style="width:100%">
+                            </div>
+
+
+
+                            <a class="prethodnitri" onclick="plusSlid(-1)"></a>
+                            <a class="iducitri" onclick="plusSlid(1)">&#10095;</a>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                            <span class="dott" onclick="currentSli(1)"></span>
+                            <span class="dott" onclick="currentSli(2)"></span>
+                            <span class="dott" onclick="currentSli(3)"></span>
+                            <span class="dott" onclick="currentSli(4)"></span>
+                            <span class="dott" onclick="currentSli(5)"></span>
+                            <span class="dott" onclick="currentSli(6)"></span>
+                            <span class="dott" onclick="currentSli(7)"></span>
+                            <span class="dott" onclick="currentSli(8)"></span>
+                            <span class="dott" onclick="currentSli(9)"></span>
+                            <span class="dott" onclick="currentSli(10)"></span>
+                            <span class="dott" onclick="currentSli(11)"></span>
+                            <span class="dott" onclick="currentSli(12)"></span>
+                            <span class="dott" onclick="currentSli(13)"></span>
+                            <span class="dott" onclick="currentSli(14)"></span>
+                            <span class="dott" onclick="currentSli(15)"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="fourth">
+                    <h2 class="header4">
+                        2019
+                    </h2>
+                    <div class="kolekcija">
+                        <div class="kontejner">
+                            <div class="brojcetiri">
+                                <img src=".\2019 resized\IMG_20200401_201917_229.jpg" style="width:100%">
+                            </div>
+                            <div class="brojcetiri">
+                                <img src=".\2019 resized\IMG_20200401_201733_779.jpg" style="width:100%">
+                            </div>
+                            <div class="brojcetiri">
+                                <img src=".\2019 resized\20200525_163729.jpg" style="width:100%">
+                            </div>
+                            <div class="brojcetiri">
+                                <img src=".\2019 resized\IMG_20200622_173654_062.jpg" style="width:100%">
+                            </div>
+                            <div class="brojcetiri">
+                                <img src=".\2019 resized\IMG_20200622_173552_571.jpg" style="width:100%">
+                            </div>
+                            <div class="brojcetiri">
+                                <img src=".\2019 resized\IMG_20200622_173615_481.jpg" style="width:100%">
+                            </div>
+                            <div class="brojcetiri">
+                                <img src=".\2019 resized\IMG_20200401_202139_636.jpg" style="width:100%">
+                            </div>
+
+                            <a class="prethodnicetiri" onclick="plusSli(-1)"></a>
+                            <a class="iducicetiri" onclick="plusSli(1)">&#10095;</a>
+                            <br>
+                            <div style="text-align:center">
+                                <span class="dottc" onclick="currentSl(1)"></span>
+                                <span class="dottc" onclick="currentSl(2)"></span>
+                                <span class="dottc" onclick="currentSl(3)"></span>
+                                <span class="dottc" onclick="currentSl(4)"></span>
+                                <span class="dottc" onclick="currentSl(5)"></span>
+                                <span class="dottc" onclick="currentSl(6)"></span>
+                                <span class="dottc" onclick="currentSl(7)"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="fifth">
+                    <h2 class="header5">
+                        2018 </h2>
+                    <div class="kolekcija">
+                        <div class="kontejner">
+                            <div class="brojpet">
+                                <img src=".\2018 resized\Screenshot_20211217-232537_Instagram.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\IMG_20200529_223207_338.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\IMG_20200330_234639_751.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\IMG_20200330_233528_551.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\IMG_20200330_233052_639.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125746-01.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125709-01.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125703-01.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125639.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125605.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125559.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125434.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125414.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\20200331_125434.jpg" style="width:100%">
+                            </div>
+                            <div class="brojpet">
+                                <img src=".\2018 resized\Screenshot_20211217-232555_Instagram.jpg" style="width:100%">
+                            </div>
+
+                            <a class="prethodnipet" onclick="plusSl(-1)"></a>
+                            <a class="iducipet" onclick="plusSl(1)">&#10095;</a>
+                            <br>
+                            <div style="text-align:center">
+                                <span class="dotp" onclick="currentS(1)"></span>
+                                <span class="dotp" onclick="currentS(2)"></span>
+                                <span class="dotp" onclick="currentS(3)"></span>
+                                <span class="dotp" onclick="currentS(4)"></span>
+                                <span class="dotp" onclick="currentS(5)"></span>
+                                <span class="dotp" onclick="currentS(6)"></span>
+                                <span class="dotp" onclick="currentS(7)"></span>
+                                <span class="dotp" onclick="currentS(8)"></span>
+                                <span class="dotp" onclick="currentS(9)"></span>
+                                <span class="dotp" onclick="currentS(10)"></span>
+                                <span class="dotp" onclick="currentS(11)"></span>
+                                <span class="dotp" onclick="currentS(12)"></span>
+                                <span class="dotp" onclick="currentS(13)"></span>
+                                <span class="dotp" onclick="currentS(14)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sixth">
+                    <h2 class="header6">
+                        2016
+                    </h2>
+
+
+
+                    <div class="kolekcija">
+                        <div class="kontejner">
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20200404_181724_256.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20200517_233505_014.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\20200331_130348-01.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\20200331_130712.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20200404_181056_072.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\nadjadrvo.png" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20200517_233534_210.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\kolut.png" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20200707_234051_353.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20201113_171823_739.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20201113_171848_409.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20201113_172006_202.jpg" style="width:100%">
+                            </div>
+
+                            <div class="brojsest">
+                                <img src=".\2016 resized\IMG_20210127_143742_046.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsest">
+                                <img src=".\2016 resized\pos.png" style="width:100%">
+                            </div>
+
+
+
+                            <a class="prethodnisest" onclick="plusS(-1)"></a>
+                            <a class="iducisest" onclick="plusS(1)">&#10095;</a>
+                            <br>
+                            <div style="text-align:center">
+                                <span class="dottts" onclick="current(1)"></span>
+                                <span class="dottts" onclick="current(2)"></span>
+                                <span class="dottts" onclick="current(3)"></span>
+                                <span class="dottts" onclick="current(4)"></span>
+                                <span class="dottts" onclick="current(5)"></span>
+                                <span class="dottts" onclick="current(6)"></span>
+                                <span class="dottts" onclick="current(7)"></span>
+                                <span class="dottts" onclick="current(8)"></span>
+                                <span class="dottts" onclick="current(9)"></span>
+                                <span class="dottts" onclick="current(10)"></span>
+                                <span class="dottts" onclick="current(11)"></span>
+                                <span class="dottts" onclick="current(12)"></span>
+                                <span class="dottts" onclick="current(13)"></span>
+                                <span class="dottts" onclick="current(14)"></span>
+                                <span class="dottts" onclick="current(15)"></span>
+                                <span class="dottts" onclick="current(16)"></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--
+                <div class="seventh">
+                    <h2 class="header7">
+                        Digital Design
+                    </h2>
+                    <div class="kolekcija">
+                        <div class="kontejner">
+                            <div class="brojsedam">
+                                <img src=".\resized\PicsArt_12-19-12.48.42.jpg" style="width:100%; height:1000px">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\Screenshot_20211218-000522_Instagram.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\Screenshot_20211218-000535_Instagram.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\Screenshot_20211218-000548_Instagram.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\PicsArt_06-17-06.24.34.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20211206_175726_679.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210902_225043_102.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210902_225024_307.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210529_131930_574.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210528_100341_662.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210408_174832_073.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210408_174750_933.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210408_174719_873.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20210215_205508_739.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20201219_125000_931.jpg" style="width:100%">
+                            </div>
+                            <div class="brojsedam">
+                                <img src=".\resized\IMG_20201114_003137_761.jpg" style="width:100%">
+                            </div>
+                            <a class="prethodnisedam" onclick="pplus(-1)"></a>
+                            <a class="iducisedam" onclick="pplus(1)">&#10095;</a>
+                            <br>
+                            <div style="text-align:center">
+                                <span class="d" onclick="scurrent(1)"></span>
+                                <span class="d" onclick="scurrent(2)"></span>
+                                <span class="d" onclick="scurrent(3)"></span>
+                                <span class="d" onclick="scurrent(4)"></span>
+                                <span class="d" onclick="scurrent(5)"></span>
+                                <span class="d" onclick="scurrent(6)"></span>
+                                <span class="d" onclick="scurrent(7)"></span>
+                                <span class="d" onclick="scurrent(8)"></span>
+                                <span class="d" onclick="scurrent(9)"></span>
+                                <span class="d" onclick="scurrent(10)"></span>
+                                <span class="d" onclick="scurrent(11)"></span>
+                                <span class="d" onclick="scurrent(12)"></span>
+                                <span class="d" onclick="scurrent(13)"></span>
+                                <span class="d" onclick="scurrent(14)"></span>
+                                <span class="d" onclick="scurrent(15)"></span>
+                                <span class="d" onclick="scurrent(16)"></span>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+ -->
+
+            </div>
+        </div>
+
+
+
+        <div class="treci">
+            <a href="https://www.instagram.com/explore/tags/cvijetukosiart/?hl=hr"><br>#cvijetukosiart </a>
+        </div>
+
+
+    </section>
+
+
+
+    <script src="javaproj6.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
